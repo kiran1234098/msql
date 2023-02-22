@@ -12,7 +12,7 @@ cur.execute("select * from fsds_db.fsds1")
 for i in cur:
     print(i)
 
-cur.execute("UPDATE fsds_db.fsds1 SET mail_id ='kiran@gmail.com' ")   
+cur.execute("UPDATE fsds_db.fsds1 SET mail_id ='kiran56@gmail.com' ")   
 cur.execute("select * from fsds_db.fsds1")
 
 for i in cur:
